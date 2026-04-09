@@ -42,7 +42,7 @@ STATIC_TARGETS:=lib/libAria.a
 #examples/demoStatic$(binsuffix)
 
 # Lots of targets, to build in the everything rule:
-ALL_TARGETS:=lib/libAria.$(sosuffix) utils examples tests docs params swig $(STATIC_TARGETS)
+ALL_TARGETS:=lib/libAria.$(sosuffix) examples tests swig $(STATIC_TARGETS)
 
 CFILES:= \
 	ArAction.cpp \
